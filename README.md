@@ -11,7 +11,8 @@ In order to move forward to an interview, you must demonstrate development knowl
     * **BONUS** Swagger Documentation
 * Modern Frontend Web Application Framework
 * Basic Documentation on how to effortlessly run your solution components on a local development machine
-
+    * This includes basic npm or docker commands required to have your solution stood up on **any** workstation
+    * **ASSUMPTIONS!** The marking panel for this assignment will have basic development tools installed on their workstations such as node, npm, docker. If your solution requires any other frameworks or languages to be present on a workstation in order for your solution to work, please provide basic instructions on how to install your tech stack before trying to build and run your web application.
 
 ### Important!
 
