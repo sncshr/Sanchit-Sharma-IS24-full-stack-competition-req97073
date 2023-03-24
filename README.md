@@ -10,6 +10,8 @@ In order to move forward to the next part of the competition you must demonstrat
 * Modern Backend API Framework 
     * **BONUS** Swagger Documentation
 * Modern Frontend Web Application Framework
+    * 3 user stories providing basic functionality
+    * **BONUS** 2 user stories providing a search for project resource names
 * Basic Documentation on how to effortlessly run your solution components on a local development machine
     * This includes basic npm or docker commands required to have your solution stood up on **any** workstation
     * **ASSUMPTIONS!** The marking panel for this assignment will have basic development tools installed on their workstations such as node, npm, docker. If your solution requires any other frameworks or languages to be present on a workstation in order for your solution to work, please provide basic instructions on how to install your tech stack before trying to build and run your web application.
@@ -81,6 +83,8 @@ provide your Frontend component with basic CRUD actions described in the user st
 
 This component should be comprised of a basic table or datatable that displays information related to the Web Applications being listed.
 
+**BONUS** Two user stories outlining a search on data that is present in the basic table will be asked.
+
 ## Code Challenge Context
 
 The BC Government Ministry of Citizens' Services Information Management Branch (IMB) is currently trying to catalog current modern web applications in GitHub, as well as new projects that are coming up in the future. Currently there are 40 projects marked for modernization that need to be cataloged, as well as 3 projects that are either actively being developed or in a maintainence lifecyle.
@@ -101,37 +105,86 @@ The user base for this application will include a wide array of technical skills
 
 ### User Story One
 
-As Lisa, I want to be able to add a project to the list of projects that IMB is developing or maintaining.
+As Lisa, I want to see a list of all projects that IMB currently develops or maintains in a list view. 
+
+Given that I don't need to be an authorized user  
+When I navigate to the application landing page  
+I can see a list of all projects within IMB  
+And all relevant information related to each project  
+* Project Number
+* Name
+* Scrum Master
+* Product Owner
+* Developer Names (up to 5)
+* Start Date
+* Methodology (Agile or Waterfall)
 
 **Acceptance Criteria**
-* Given that I am Lisa
-* And I am aware of a new development project within IMB
-* When I go to the project dashboard
-* I can click a button 
-* And the application takes me to a basic "Create Project" form
-* And I can click a submit button to save basic product data
+* All columns fit on the page
+* I can see a title for each column
+* I can see a total number of all projects at IMB
 
 ### User Story Two
 
-As Lisa, I want to see a list of all projects that IMB currently develops or maintains in a dashboard
+As Lisa, I want to be able to add a project to the list of projects that IMB is developing or maintaining.  
+
+Given that I am on the project view list  
+When I click add new project call to action button  
+Then I am able to answer the following questions on a form:
+
+* Name
+* Scrum Master
+* Product Owner
+* Developer Names (up to 5)
+* Start Data
+* Methodology (Agile or Waterfall)
 
 **Acceptance Criteria**
-* Given that I am Lisa
-* And I am trying to see a list of all projects within IMB
-* When I navigate to the application landing page
-* I can see a list of all projects within IMB
-* And all relevant information related to each project
+* Project number generated is automatic, and doesn't collide with previously generated project IDs
+* User must answer all questions in order to save
+* Click on save button
 
 ### User Story Three
 
-As Alan I want to be able to add/edit project related information
+As Alan, I want to be able to add or edit project related information so that I can ensure that project data is accurate.
+
+Given that I don't need to be an authorized user  
+When I am on the list page and I click on an edit button  
+Then I am able to edit the following fields:
+* Name
+* Scrum Master
+* Product Owner
+* Developer Names (up to 5)
+* Methodology (Agile or Waterfall)
+
+### **BONUS** User Story Four
+
+As Lisa, I want to search for a specific Scrum Master name so that I can see all of the projects that she/he is currently working on
+
+Given that I don't need to be an authorized user  
+When I am on the list view page  
+Then I can search for a specific person in the Scrum Master role
 
 **Acceptance Criteria**
-* Given that I am Alan
-* And I want edit details related to a specific project
-* When I click on an edit button found at the end of a row within a dashboard
-* I am redirected to a simple form that displays all of a given projects details
-* And allows me to edit and submit those such that they are persistent
+* All columns fit on the page
+* I can see a title for each column
+* I can see a total number of all projects the Scrum Master is in
+* The only projects listed include the Scrum Master Name
+
+### **BONUS** User Story Five
+
+As Alan, I want to search for a specific Developer name so that I can see all of the projects that she/he is currently working on
+
+Given that I don't need to be an authorized user  
+When I am on the list view page  
+I can search for a specific developer  
+
+**Acceptance Criteria**
+* All columns fit on the page
+* I can see a title for each column
+* I can see a total number of all projects the Developer being searched for is working on
+* Only projects where the developer is assigned to are shown
+
 
 ## Questions
 
