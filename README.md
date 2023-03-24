@@ -60,7 +60,6 @@ Your API should include at minimum the following functionality:
     {
         projectId: VALUE,
         projectName: VALUE,
-        description: VALUE,
         productOwnerName: VALUE,
         Developers: [
          "NAME_1",
