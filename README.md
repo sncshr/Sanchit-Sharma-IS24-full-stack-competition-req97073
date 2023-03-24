@@ -159,7 +159,7 @@ Then I am able to edit the following fields:
 
 ### **BONUS** User Story Four
 
-As Lisa, I want to search for a specific Scrum Master name so that I can see all of the projects that she/he is currently working on
+As Lisa, I want to search for a specific Scrum Master name so that I can see all of the projects that she/he is currently working on.
 
 Given that I don't need to be an authorized user  
 When I am on the list view page  
@@ -173,7 +173,7 @@ Then I can search for a specific person in the Scrum Master role
 
 ### **BONUS** User Story Five
 
-As Alan, I want to search for a specific Developer name so that I can see all of the projects that she/he is currently working on
+As Alan, I want to search for a specific Developer name so that I can see all of the projects that she/he is currently working on.
 
 Given that I don't need to be an authorized user  
 When I am on the list view page  
