@@ -32,7 +32,7 @@ In order to move forward to the next part of the competition you must demonstrat
 
 Create a GitHub repository using your GitHub Account. The name of the repository should use the following convention:
 
-your_first_name-your_last_name_-IS24-full_stack_competition-req97073
+[FIRST_NAME]-[LAST_NAME]_-IS24-full_stack_competition-req97073
 
 Your working solution should be present on the **main** branch of the repository. Please trim or remove any extraneous branches prior to submission.
 
