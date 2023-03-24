@@ -6,7 +6,7 @@ For this code challenge we are asking you to build a Web Application that tracks
 
 In order to move forward to the next part of the competition you must demonstrate knowledge in the following areas of your submission:
 
-* Github Repository
+* GitHub Repository
 * Modern Backend API Framework 
     * **BONUS** Swagger Documentation
 * Modern Frontend Web Application Framework
@@ -28,7 +28,7 @@ In order to move forward to the next part of the competition you must demonstrat
 
 ## What to Submit
 
-### Github Repository
+### GitHub Repository
 
 Create a GitHub repository using your GitHub Account. The name of the repository should use the following convention:
 
@@ -200,7 +200,7 @@ Outside of normal business hours will be best effort, normally within the next b
 
 The following tables will be provided to you via email after marking of your solution is complete.
 
-### Github Repository Component
+### GitHub Repository Component
 | Rating                  | Criteria                                                                        |
 |-------------------------|---------------------------------------------------------------------------------|
 | Pass/Acceptable         | * Organized, easy to read                                                       |
