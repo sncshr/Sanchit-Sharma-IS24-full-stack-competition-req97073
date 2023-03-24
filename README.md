@@ -18,7 +18,7 @@ In order to move forward to the next part of the competition you must demonstrat
 
 * Read the Code Challenge Context, User Stories and Assessment Scoring for this challenge carefully. Development of the functionality described in these sections is what you are being marked against.
 
-* Only solutions that build and run without warning or error will be considered, or solutions that take minimal effort to troubleshoot and resolve errors at build/runtime to move forward in this interview process.
+* Only solutions that build and run without warning or error will be considered, or solutions that take minimal effort to troubleshoot and resolve errors at build/runtime to move forward to the next step of this competition.
 
 * This code challenge does not require a database to accomplish your solution. In memory data storage or mock-data is highly encouraged.
 
