@@ -44,14 +44,14 @@ Please send the link to your repository to christie.spiteri@gov.bc.ca
 
 The API component should use a modern framework or language (of your choice) to create API endpoints utilized by the Frontend component. All endpoints should originate from http://localhost:3000/api
 
-**Example** A GET endpoint to retrieve a user with a specfic user id
+**Example** A GET endpoint to retrieve a user with a specific user id
 
 http://localhost:3000/api/user/:userId
 
 **User Authentication/Authorization is not required for the purposes of your solution.**
 
 Your API should include at minimum the following functionality:
-* A health endpoint that returns a http 200 reponse indicating your component is healthy
+* A health endpoint that returns a http 200 response indicating your component is healthy
 * All GET, POST, PUT and DELETE endpoints return the proper response codes when consumed
 
 ### Sample JSON Schema
@@ -68,7 +68,7 @@ Your API should include at minimum the following functionality:
     }
 ```
 
-Pre-populate a JSON object within your solution with upto 40 sample projects. This will not be provided for your solution. Use of a random generator is encouraged.
+Pre-populate a JSON object within your solution with up to 40 sample projects. This will not be provided for your solution. Use of a random generator is encouraged.
 
 ### BONUS - Swagger Documentation
 
@@ -81,7 +81,7 @@ The Swagger documentation should be consumed by anyone building the project on t
 This component should be developed using a modern javascript framework (of your choice). This component should utilize endpoints developed in your API solution to
 provide your Frontend component with basic CRUD actions described in the user stories provided. 
 
-This component should be comprised of a basic table or datatable that displays information related to the Web Applications being listed.
+This component should be comprised of a basic table or data table that displays information related to the Web Applications being listed.
 
 **BONUS** Two user stories outlining a search on data that is present in the basic table will be asked.
 
