@@ -4,7 +4,7 @@
 
 For this code challenge we are asking you to build a Web Application that tracks and manages Web Applications developed by the Province of BC as described by the User Stories below. 
 
-In order to move forward to an interview, you must demonstrate development knowledge and implement the following in your Web Application:
+In order to move forward to the next part of the competition you must demonstrate knowledge in the following areas of your submission:
 
 * Github Repository
 * Modern Backend API Framework 
