@@ -87,7 +87,7 @@ This component should be comprised of a basic table or datatable that displays i
 
 ## Code Challenge Context
 
-The BC Government Ministry of Citizens' Services Information Management Branch (IMB) is currently trying to catalog current modern web applications in GitHub, as well as new projects that are coming up in the future. Currently there are 40 projects marked for modernization that need to be cataloged, as well as 3 projects that are either actively being developed or in a maintainence lifecyle.
+The BC Government Ministry of Citizens' Services Information Management Branch (IMB) is currently trying to catalog current modern web applications in GitHub, as well as new projects that are coming up in the future. Currently there are 40 projects marked for modernization that need to be cataloged, as well as 3 projects that are either actively being developed or in a maintainence lifecycle.
 
 Product owners have expressed the desire to communicate to the branch where these projects are housed (GitHub Repository). As IMB is currently driving a common component practice as well, Senior leadership would like to tag or label which projects use common component services like Keycloak, GC-Notify, Redis, RabbitMQ for example.
 
