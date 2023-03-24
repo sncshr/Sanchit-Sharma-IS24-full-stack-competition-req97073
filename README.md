@@ -35,6 +35,8 @@ Your working solution should be present on the **main** branch of the repository
 
 Your submission to the marking panel should come in the form of a link to the repository you have created with your working solution.
 
+Please send the link to your repository to christie.spiteri@gov.bc.ca
+
 ### API Component
 
 The API component should use a modern framework or language (of your choice) to create API endpoints utilized by the Frontend component. All endpoints should originate from http://localhost:3000/api
@@ -133,9 +135,9 @@ As Alan I want to be able to add/edit project related information
 ## Questions
 
 If you require further clarification on this code challenge, questions can be directed to the following email addresses
-* marker1@gov.bc.ca
-* marker2@gov.bc.ca
-* marker3@gov.bc.ca
+* craig.shutko@gov.bc.ca
+* justin.hewitt@gov.bc.ca
+* adam.kroon@gov.bc.ca
 
 Emails should be responded to with best effort of being received during business hours (9am-5pm).
 Outside of normal business hours will be best effort, normally within the next business day.
@@ -177,4 +179,7 @@ The following tables will be provided to you via email after marking of your sol
 |                         | * Basic error handling when interacting with API (ex// API is not present or healthy)                                  |
 |                         | * Basic commenting of your solution                                                                                    | 
 |                         | * Utilizes API to perform required GET, PUT, POST or DELETE actions when required (3 of 4 CRUD actions is acceptable)  |
+|                         | * Acceptance criteria for User Story 1 is complete                                                                     |
+|                         | * Acceptance criteria for User Story 2 is complete                                                                     |
+|                         | * Acceptance criteria for User Story 3 is complete                                                                     |
 | Fail/Unacceptable       | * More than one requirement of Pass/Acceptable are not met                                                             |
