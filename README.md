@@ -61,10 +61,17 @@ Your API should include at minimum the following functionality:
         projectId: VALUE,
         projectName: VALUE,
         description: VALUE,
-        productOwnerFirstName: VALUE,
-        productOwnerLastName: VALUE,
-        tecnicalLeadFirstName: VALUE,
-        technicalLeadLastName: VALUE,
+        productOwnerName: VALUE,
+        Developers: [
+         "NAME_1",
+         "NAME_2",
+         "NAME_3",
+         "NAME_4",
+         "NAME_5"
+        ],
+        scrumMasterName: VALUE,
+        startDate: "YYYY/MM/DD",
+        methodology: VALUE
     }
 ```
 
