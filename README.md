@@ -70,7 +70,7 @@ Your API should include at minimum the following functionality:
 
 Pre-populate a JSON object within your solution with upto 40 sample projects. This will not be provided for your solution. Use of a random generator is encouraged.
 
-### BONUS - Swagger Documentation **
+### BONUS - Swagger Documentation
 
 All API endpoints that created in order to develop the required frontend application functionality should be documented via Swagger.
 
@@ -236,4 +236,6 @@ The following tables will be provided to you via email after marking of your sol
 |                         | * Acceptance criteria for User Story 1 is complete                                                                     |
 |                         | * Acceptance criteria for User Story 2 is complete                                                                     |
 |                         | * Acceptance criteria for User Story 3 is complete                                                                     |
-| Fail/Unacceptable       | * More than one requirement of Pass/Acceptable are not met                                                             |
+|                         | * **BONUS** Acceptance Criteria for User Story 4 is complete                                                           |
+|                         | * **BONUS** Acceptance Criteria for User Story 5 is complete                                                           |
+| Fail/Unacceptable       | * More than one requirement of Pass/Acceptable are not met (Bonus User Stories Exluded)                                |
