@@ -38,7 +38,7 @@ Your working solution should be present on the **main** branch of the repository
 
 Your submission to the marking panel should come in the form of a link to the repository you have created with your working solution.
 
-Please send the final copy of your soltuion via a link to your repository in an email christie.spiteri@gov.bc.ca .
+Please send the final copy of your solution via a link to your repository in an email christie.spiteri@gov.bc.ca .
 
 ### API Component
 
