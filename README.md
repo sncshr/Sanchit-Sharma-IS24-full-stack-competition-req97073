@@ -33,6 +33,8 @@ your_first_name-your_last_name_-IS24-full_stack_competition_requisition_number
 
 Your working solution should be present on the **main** branch of the repository. Please trim or remove any extraneous branches prior to submission.
 
+Your submission to the marking panel should come in the form of a link to the repository you have created with your working solution.
+
 ### API Component
 
 The API component should use a modern framework or language (of your choice) to create API endpoints utilized by the Frontend component. All endpoints should originate from http://localhost:3000/api
