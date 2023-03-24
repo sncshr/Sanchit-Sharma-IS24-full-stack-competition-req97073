@@ -11,7 +11,7 @@ In order to move forward to the next part of the competition you must demonstrat
     * **BONUS** Swagger Documentation
 * Modern Frontend Web Application Framework
     * 3 user stories providing basic functionality
-    * **BONUS** 2 user stories providing a search for project resource names
+    * **BONUS** 2 user stories providing a search for product resource names
 * Basic Documentation on how to effortlessly run your solution components on a local development machine
     * This includes basic npm or docker commands required to have your solution stood up on **any** workstation
     * **ASSUMPTIONS!** The marking panel for this assignment will have basic development tools installed on their workstations such as node, npm, docker. If your solution requires any other frameworks or languages to be present on a workstation in order for your solution to work, please provide basic instructions on how to install your tech stack before trying to build and run your web application.
@@ -58,8 +58,8 @@ Your API should include at minimum the following functionality:
 
 ```
     {
-        projectId: VALUE,
-        projectName: VALUE,
+        productId: VALUE,
+        productName: VALUE,
         productOwnerName: VALUE,
         Developers: [
          "NAME_1",
@@ -74,13 +74,13 @@ Your API should include at minimum the following functionality:
     }
 ```
 
-Pre-populate a JSON object within your solution with up to 40 sample projects. This will not be provided for your solution. Use of a random generator is encouraged.
+Pre-populate a JSON object within your solution with up to 40 sample products. This will not be provided for your solution. Use of a random generator is encouraged.
 
 ### BONUS - Swagger Documentation
 
 All API endpoints that created in order to develop the required frontend application functionality should be documented via Swagger.
 
-The Swagger documentation should be consumed by anyone building the project on their local workstation at http://localhost:3000/api/api-docs.
+The Swagger documentation should be consumed by anyone building the product on their local workstation at http://localhost:3000/api/api-docs.
 
 ### Frontend Component
 
@@ -93,32 +93,32 @@ This component should be comprised of a basic table or data table that displays 
 
 ## Code Challenge Context
 
-The BC Government Ministry of Citizens' Services Information Management Branch (IMB) is currently trying to catalog current modern web applications in GitHub, as well as new projects that are coming up in the future. Currently there are 40 projects marked for modernization that need to be cataloged, as well as 3 projects that are either actively being developed or in a maintenance lifecycle.
+The BC Government Ministry of Citizens' Services Information Management Branch (IMB) is currently trying to catalog current modern web applications in GitHub, as well as new products that are coming up in the future. Currently there are 40 products marked for modernization that need to be cataloged, as well as 3 products that are either actively being developed or in a maintenance lifecycle.
 
-Product owners have expressed the desire to communicate to the branch where these projects are housed (GitHub Repository). 
+Product owners have expressed the desire to communicate to the branch where these products are housed (GitHub Repository). 
 
 The user base for this application will include a wide array of technical skills, therefore making this application as simple as possible to display, create and edit information is being stressed by the IMB Senior Leadership Team (SLT).
 
 ## Personas
 
-**Lisa** A director within IMB that is fairly new to the branch, but has worked with BC Government for 10+ years. She has experience with software development projects as she was previously a Product Owner for a project that had a successful production launch. She currently manages Service Design and SCRUM Master resources, and would like to know at a glance who is resourced on what project. She understands Agile philosophy and knows that a solution may take many iterations to achieve a desired state of functionality.
+**Lisa** A director within IMB that is fairly new to the branch, but has worked with BC Government for 10+ years. She has experience with software development products as she was previously a Product Owner for a product that had a successful production launch. She currently manages Service Design and SCRUM Master resources, and would like to know at a glance who is resourced on what product. She understands Agile philosophy and knows that a solution may take many iterations to achieve a desired state of functionality.
 
-**Alan** A DevOps resource that has worked for IMB for the last 3 Years. He has worked on many projects, including from inception to maintenance lifecycles for IMB, setting up deployment pipelines and integrating technologies into projects that help increase developer velocity. He actively engages the developer community to understand their ever changing needs from project to project. Alan is currently looking to build a tool that allows product owners/stakeholders within IMB to understand resource utilization across all projects within IMB to help avoid developer/resource burn-out.
+**Alan** A DevOps resource that has worked for IMB for the last 3 Years. He has worked on many products, including from inception to maintenance lifecycles for IMB, setting up deployment pipelines and integrating technologies into products that help increase developer velocity. He actively engages the developer community to understand their ever changing needs from product to product. Alan is currently looking to build a tool that allows product owners/stakeholders within IMB to understand resource utilization across all products within IMB to help avoid developer/resource burn-out.
 
-**Both IMB Employees** are looking for a tool that offers all users within IMB easily digestible data based on the breadth and depth of the many projects they currently develop and maintain, as well as projects that are on the horizon for IMB. Displaying exactly the right amount of information at a glance is paramount to both Lisa and Alan.
+**Both IMB Employees** are looking for a tool that offers all users within IMB easily digestible data based on the breadth and depth of the many products they currently develop and maintain, as well as products that are on the horizon for IMB. Displaying exactly the right amount of information at a glance is paramount to both Lisa and Alan.
 
 ## User Stories
 
 ### User Story One
 
-As Lisa, I want to see a list of all projects that IMB currently develops or maintains in a list view. 
+As Lisa, I want to see a list of all products that IMB currently develops or maintains in a list view. 
 
 Given that I don't need to be an authorized user  
 When I navigate to the application landing page  
-I can see a list of all projects within IMB  
-And all relevant information related to each project  
-* Project Number
-* Name
+I can see a list of all products within IMB  
+And all relevant information related to each product 
+* Product Number
+* Product Name
 * Scrum Master
 * Product Owner
 * Developer Names (up to 5)
@@ -128,36 +128,37 @@ And all relevant information related to each project
 **Acceptance Criteria**
 * All columns fit on the page
 * I can see a title for each column
-* I can see a total number of all projects at IMB
+* I can see a total number of all products at IMB
 
 ### User Story Two
 
-As Lisa, I want to be able to add a project to the list of projects that IMB is developing or maintaining.  
+As Lisa, I want to be able to add a product to the list of products that IMB is developing or maintaining.  
 
-Given that I am on the project view list  
-When I click add new project call to action button  
+Given that I am on the product view list  
+When I click add new product call to action button  
 Then I am able to answer the following questions on a form:
 
-* Name
+* Product Name
 * Scrum Master
 * Product Owner
 * Developer Names (up to 5)
-* Start Data
+* Start Date
 * Methodology (Agile or Waterfall)
 
 **Acceptance Criteria**
-* Project number generated is automatic, and doesn't collide with previously generated project IDs
+* Product number generated is automatic, and doesn't collide with previously generated product IDs
 * User must answer all questions in order to save
 * Click on save button
 
 ### User Story Three
 
-As Alan, I want to be able to add or edit project related information so that I can ensure that project data is accurate.
+As Alan, I want to be able to add or edit product related information so that I can ensure that product data is accurate.
 
 Given that I don't need to be an authorized user  
 When I am on the list page and I click on an edit button  
 Then I am able to edit the following fields:
-* Name
+
+* Product Name
 * Scrum Master
 * Product Owner
 * Developer Names (up to 5)
@@ -165,7 +166,7 @@ Then I am able to edit the following fields:
 
 ### **BONUS** User Story Four
 
-As Lisa, I want to search for a specific Scrum Master name so that I can see all of the projects that she/he is currently working on.
+As Lisa, I want to search for a specific Scrum Master name so that I can see all of the products that they are currently working on.
 
 Given that I don't need to be an authorized user  
 When I am on the list view page  
@@ -174,12 +175,12 @@ Then I can search for a specific person in the Scrum Master role
 **Acceptance Criteria**
 * All columns fit on the page
 * I can see a title for each column
-* I can see a total number of all projects the Scrum Master is in
-* The only projects listed include the Scrum Master Name
+* I can see a total number of all products the Scrum Master is in
+* The only products listed include the Scrum Master Name
 
 ### **BONUS** User Story Five
 
-As Alan, I want to search for a specific Developer name so that I can see all of the projects that she/he is currently working on.
+As Alan, I want to search for a specific Developer name so that I can see all of the products that they are currently working on.
 
 Given that I don't need to be an authorized user  
 When I am on the list view page  
@@ -188,8 +189,8 @@ I can search for a specific developer
 **Acceptance Criteria**
 * All columns fit on the page
 * I can see a title for each column
-* I can see a total number of all projects the Developer being searched for is working on
-* Only projects where the developer is assigned to are shown
+* I can see a total number of all products the Developer being searched for is working on
+* Only products where the developer is assigned to are shown
 
 
 ## Questions
@@ -198,6 +199,7 @@ If you require further clarification on this code challenge, questions can be di
 * craig.shutko@gov.bc.ca
 * justin.hewitt@gov.bc.ca
 * adam.kroon@gov.bc.ca
+* christie.spiteri@gov.bc.ca
 
 Emails should be responded to with best effort of being received during business hours (9am-5pm).
 Outside of normal business hours will be best effort, normally within the next business day.
