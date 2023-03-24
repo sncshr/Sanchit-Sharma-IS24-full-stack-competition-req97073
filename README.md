@@ -243,6 +243,6 @@ The following tables will be provided to you via email after marking of your sol
 |                         | * Acceptance criteria for User Story 1 is complete                                                                     |
 |                         | * Acceptance criteria for User Story 2 is complete                                                                     |
 |                         | * Acceptance criteria for User Story 3 is complete                                                                     |
-|                         | * **BONUS** Acceptance Criteria for User Story 4 is complete                                                           |
-|                         | * **BONUS** Acceptance Criteria for User Story 5 is complete                                                           |
-| Fail/Unacceptable       | * More than one requirement of Pass/Acceptable are not met (Bonus User Stories Excluded)                                |
+|                         | * **BONUS** Acceptance criteria for User Story 4 is complete                                                           |
+|                         | * **BONUS** Acceptance criteria for User Story 5 is complete                                                           |
+| Fail/Unacceptable       | * More than one requirement of Pass/Acceptable are not met (bonus user stories excluded)                               |
