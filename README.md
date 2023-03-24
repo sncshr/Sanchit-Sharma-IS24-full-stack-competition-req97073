@@ -94,7 +94,7 @@ The user base for this application will include a wide array of technical skills
 
 **Alan** A DevOps resource that has worked for IMB for the last 3 Years. He has worked on many projects, including from inception to maintainance lifecycles for IMB, setting up deployment pipelines and integrating technologies into projects that help increase developer velocity. He actively engages the developer community to understand their ever changing needs from project to project. Alan is currently looking to build a tool that allows product owners/stakeholders within IMB to understand resource utilization across all projects within IMB to help avoid developer/resource burn-out.
 
-**Both IMB Employees** are looking for a tool that offers all users within IMB easily digestible data based on the bredth and depth of the many projects they currently develop and maintain, as well as projects that are on the horizon for IMB. Displaying exactly the right amount of information at a glance is paramount to both Lisa and Alan.
+**Both IMB Employees** are looking for a tool that offers all users within IMB easily digestible data based on the breadth and depth of the many projects they currently develop and maintain, as well as projects that are on the horizon for IMB. Displaying exactly the right amount of information at a glance is paramount to both Lisa and Alan.
 
 ## User Stories
 
