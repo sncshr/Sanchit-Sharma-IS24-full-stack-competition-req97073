@@ -44,9 +44,13 @@ Please send the final copy of your solution via a link to your repository in an 
 
 The API component should use a modern framework or language (of your choice) to create API endpoints utilized by the Frontend component. All endpoints should originate from http://localhost:3000/api
 
-**Example** A GET endpoint to retrieve a user with a specific user id
+**EDIT March 27, 2023**
 
-http://localhost:3000/api/user/:userId
+**Example** A GET endpoint to retrieve a product with a specific product id
+
+http://localhost:3000/api/product/:productId
+
+** End of EDIT**
 
 **User Authentication/Authorization is not required for the purposes of your solution.**
 
@@ -163,6 +167,15 @@ Then I am able to edit the following fields:
 * Product Owner
 * Developer Names (up to 5)
 * Methodology (Agile or Waterfall)
+
+**EDIT March 27, 2023**
+
+**Acceptance Criteria**
+* Call to action button for saving exits  
+* I can see my changes saved immediately
+* Data created or edited is persistent through the event of a page refresh
+
+**End of EDIT**
 
 ### **BONUS** User Story Four
 
